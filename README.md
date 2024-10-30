@@ -17,4 +17,5 @@ The analyses in this study explore the macroevolutionary patterns in turtles (Te
 ## R Scripts ##
 The R scripts in this repository are organized to guide users through each major analysis step, including:
 
-- **BSIfunction:**  
+- **BSIfunction.R:** This script performs Monte Carlo analyses and generates tables and figures of the results. It calculates the Biomic Specialization Index (BSI) across turtle species, providing insights into biomic specialization patterns.
+- **DRtortugas.R** Contains code for calculating species diversification rates (Following Jetz et al., 2012), generating figures of Diversification Rate (DR) vs. BSI and DR by biome. This script also includes the statistical analyses necessary for testing the significance of diversification rate differences across biomes and levels of biomic specialization.
